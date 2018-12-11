@@ -77,9 +77,6 @@ class PlayerSubmissionForm extends Component {
               // Put your form inputs here... We've put in one below as an example
               this.generateFormFields()
             }
-            <input
-              placeholder="hm..."
-              type="text" />
 
           </div>
 
