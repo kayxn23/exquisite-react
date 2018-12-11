@@ -2,10 +2,20 @@ import React, { Component } from 'react';
 import './PlayerSubmissionForm.css';
 import PropTypes from 'prop-types';
 
+//forms have to hve state
 class PlayerSubmissionForm extends Component {
 
   constructor(props) {
     super(props);
+
+    this.state = {
+      adj1: "",
+      adj2: "",
+      adv: "",
+      noun1: "",
+      noun2: "",
+      verb: "",
+    }
   }
 
   render() {
